@@ -1,0 +1,12 @@
+:root {
+    --background-color: #113259;
+    --heading-color: #a3ff93;
+    --text-color: #a3ff93;
+    --link-color: #66c256;
+    --visited-color: #66c256;
+}
+
+body {
+    width: 600px;
+    text-align: justify;
+}
