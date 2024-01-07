@@ -1,12 +1,32 @@
 :root {
+    --font-scale: 1.4em;
     --background-color: #113259;
     --heading-color: #a3ff93;
     --text-color: #a3ff93;
     --link-color: #66c256;
     --visited-color: #66c256;
+    --width: 650px;
 }
 
 body {
-    width: 600px;
     text-align: justify;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: var(--width);
+    margin: auto;
+    padding: 20px;
+    line-height: 1.3;   
+    font-size: var(--font-scale);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dashed;
 }
